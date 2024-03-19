@@ -2,6 +2,6 @@
 *.png
 *.ckpt
 
-./logs
-./data
-./infer_model
+logs/
+data/
+infer_model/
