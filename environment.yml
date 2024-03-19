@@ -1,0 +1,40 @@
+name: gem
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=11.3
+  - pip=22.3.1
+  - python=3.9.18
+  - pytorch=2.0.0
+  - torchaudio=2.0.0
+  - torchtriton=2.0.0
+  - torchvision=0.15.0
+  - yaml=0.2.5
+  - pip:
+      - argparse==1.4.0
+      - easydict==1.11
+      - einops==0.7.0
+      - imageio==2.31.6
+      - lightning-utilities==0.9.0
+      - lpips==0.1.4
+      - nibabel==5.2.0
+      - numpy==1.26.1
+      - omegaconf==2.1.1
+      - open-clip-torch==2.7.0
+      - opencv-python==4.8.1.78
+      - pandas==2.1.2
+      - pyparsing==3.1.1
+      - pytorch-lightning==1.4.2
+      - scikit-image==0.22.0
+      - scikit-learn==1.3.2
+      - scipy==1.11.3
+      - seaborn==0.13.0
+      - test-tube
+      - tensorboard==2.15.1
+      - tensorboardx==2.6.2.2
+      - torch==2.1.0
+      - torchmetrics==0.5.0
+      - tqdm==4.66.1
+      - transformers==4.29.2
+      - volumentations-3D

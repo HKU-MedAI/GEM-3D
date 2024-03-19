@@ -1,6 +1,7 @@
 *.pyc
 *.png
 *.ckpt
+*.zip
 
 logs/
 data/

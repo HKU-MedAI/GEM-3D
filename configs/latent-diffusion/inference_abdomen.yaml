@@ -1,0 +1,11 @@
+data:
+  target: main.DataModuleFromConfig
+  params:
+    batch_size: 1
+    num_workers: 5
+    wrap: false
+    validation:
+      target: ldm.data.volume_dataset.volume_test
+      params:
+        data_root: './data/nnUNet_preprocessed/'
+        data_name: 'Dataset200_Abdomen'
