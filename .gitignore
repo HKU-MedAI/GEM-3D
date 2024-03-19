@@ -1,0 +1,7 @@
+*.pyc
+*.png
+*.ckpt
+
+./logs
+./data
+./infer_model
