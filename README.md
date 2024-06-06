@@ -1,6 +1,6 @@
 # Generative Enhancement for 3D Medical Images
 
-This is the official code for https://arxiv.org/abs/2403.xxxxx.
+This is the official code for https://arxiv.org/abs/2403.12852.
 
 ## Abstract
 
@@ -71,7 +71,7 @@ If you find our work useful, please kindly cite as:
 @article{zhu2024generative,
   title={Generative Enhancement for 3D Medical Images},
   author={Zhu, Lingting and Codella, Noel and Chen, Dongdong and Jin, Zhenchao and Yuan, Lu and Yu, Lequan},
-  journal={arXiv preprint arXiv:2403.xxxxx},
+  journal={arXiv preprint arXiv:2403.12852},
   year={2024}
 }
 
