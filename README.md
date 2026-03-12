@@ -15,12 +15,10 @@ conda activate gem
 
 ## Preparation
 
-1. The preprocessed datasets can be found [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/ltzhu99_connect_hku_hk/ES0_s1XN3_BDhQn6W3cPvPgB-LnX9SJqUcBQ3dA8g-jqZA?e=3qiz5v). (For BraTS, we use the version from [Medical Segmentation Decathlon](http://medicaldecathlon.com/#tasks) and only use the FLAIR modality. For abdomen dataset, we crop the outlier regions where contain too many empty slices. Note that we need the gt segmentation for benchmark, and we mannually split the training splits. The datasets are preprocessed with [nnUNet](https://github.com/MIC-DKFZ/nnUNet).)
+1. The preprocessed datasets and our pretrained models can be found [here](https://huggingface.co/ltzhu/GEM-3D/tree/main). (For BraTS, we use the version from [Medical Segmentation Decathlon](http://medicaldecathlon.com/#tasks) and only use the FLAIR modality. For abdomen dataset, we crop the outlier regions where contain too many empty slices. Note that we need the gt segmentation for benchmark, and we mannually split the training splits. The datasets are preprocessed with [nnUNet](https://github.com/MIC-DKFZ/nnUNet).)
 
 2. Download [KL-f8 AE](https://ommer-lab.com/files/latent-diffusion/kl-f8.zip) from [LDM](https://github.com/CompVis/latent-diffusion).
 
-
-3. You can download our pretrained models [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/ltzhu99_connect_hku_hk/EdGegBBAYVZMnhLhAvs46OUBRDPVmYBI6IqX20K3OWGTQA?e=McrYWl).
 
 ## Training
 ```
